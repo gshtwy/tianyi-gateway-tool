@@ -5,6 +5,10 @@
 
 
 单文件、零依赖的 Python 工具：读取自家天翼网关（烽火 HG5585F）的超级管理员账号密码，并可选择开启或关闭 Telnet。
+![光猫状态页](images/gateway-status.png)
+
+![Telnet 登录](images/telnet-login.png)
+
 
 
 - 单一 `.py` 文件，下载即用
@@ -43,16 +47,6 @@ python3 get_superpwd.py --self-test
 
 看到 `SELF-TEST OK` 说明本机环境没问题。
 
-
-## 运行截图
-
-超管登录后的光猫状态页（XG-PON 天翼网关，型号 HG5585F）：
-
-![光猫状态页](images/gateway-status.png)
-
-Telnet 登录并 su 到 root（密码已打码）：
-
-![Telnet 登录](images/telnet-login.png)
 
 ## Telnet 说明
 
