@@ -60,7 +60,7 @@ python3 get_superpwd.py --self-test
 ## 原理
 
 
-见 [docs/principle.md](docs/principle.md)。常见问题见 [docs/faq.md](docs/faq.md)。
+见 [docs/principle.md](docs/principle.md)。常见问题见 [docs/faq.md](docs/faq.md)。让插件不上报、不扫描的处置方案见 [docs/mitigation.md](docs/mitigation.md)。
 
 
 ## 实测附记：光猫里的 m01-b01-inner 采集插件自查记录
